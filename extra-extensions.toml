@@ -19,3 +19,19 @@
 # src.github = "vadimcn/codelldb"
 # fetch.url = "https://github.com/vadimcn/codelldb/releases/download/$ver/codelldb-darwin-arm64.vsix"
 # passthru = { platform = "darwin-arm64", publisher = "vadimcn", name = "vscode-lldb", engineVersion = "^1.60.0" }
+
+# [ltex-plus--vscode-ltex-plus--linux-x64]
+# src.github = "ltex-plus/vscode-ltex-plus"
+# fetch.url = "https://github.com/ltex-plus/vscode-ltex-plus/releases/download/$ver/vscode-ltex-plus-$ver-offline-linux-x64.vsix"
+
+# [ltex-plus--vscode-ltex-plus--linux-arm64]
+# src.github = "ltex-plus/vscode-ltex-plus"
+# fetch.url = "https://github.com/ltex-plus/vscode-ltex-plus/releases/download/$ver/vscode-ltex-plus-$ver-offline-linux-aarch64.vsix"
+
+# [ltex-plus--vscode-ltex-plus--darwin-x64]
+# src.github = "ltex-plus/vscode-ltex-plus"
+# fetch.url = "https://github.com/ltex-plus/vscode-ltex-plus/releases/download/$ver/vscode-ltex-plus-$ver-offline-mac-x64.vsix"
+
+# [ltex-plus--vscode-ltex-plus--darwin-arm64]
+# src.github = "ltex-plus/vscode-ltex-plus"
+# fetch.url = "https://github.com/ltex-plus/vscode-ltex-plus/releases/download/$ver/vscode-ltex-plus-$ver-offline-mac-aarch64.vsix"

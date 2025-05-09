@@ -24,6 +24,8 @@ in
   # { mktplcRef, ... } -> Derivation
   # ```
 
+  ltex-plus.vscode-ltex-plus = callPackage ./ltex-plus/vscode-ltex-plus/latest;
+
   ms-vsliveshare.vsliveshare = callPackage ./ms-vsliveshare/vsliveshare/latest;
 
   rust-lang.rust-analyzer = callPackage ./rust-lang/rust-analyzer/latest;
